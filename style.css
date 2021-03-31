@@ -1,6 +1,9 @@
 body {
-    background: black;
-    color: #FFFFFF;
+    position: relative;
+    width: 1440px;
+    height: 4303px;
+    background: #1B1B1E;
+    color: #FFFFFF; 
 }
 
 nav {
@@ -19,6 +22,13 @@ nav a {
     color: #FFFFFF; 
 }
 
+.main-container {
+    width: 100%;
+    height: 500vh;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
 .helo {
     position: absolute;
     width: 504px;
@@ -35,11 +45,10 @@ nav a {
 
 .name {
     position: absolute;
-    width: 484px;
+    width: 500px;
     height: 220px;
     left: 547px;
     top: 250px;
-    
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
@@ -47,7 +56,6 @@ nav a {
     line-height: 100%;
     /* or 110px */
     color: #FFFFFF;
-    border: 1px solid #FFFFFF;
 }
 
 .para {
@@ -62,7 +70,6 @@ nav a {
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
-    
     color: #FFFFFF;
 }
 
@@ -89,9 +96,6 @@ color: #DB4747;
     top: 737px;
 }
 
-.fab {
-    color: #FFFFFF;
-}
 
 .recent-works {
     position: absolute;
@@ -106,13 +110,12 @@ font-weight: normal;
 font-size: 16px;
 line-height: 24px;
 /* identical to box height */
-
-
 color: #FFFFFF;
 }
+
 .port {
     position: absolute;
-width: 430px;
+width: 480px;
 height: 110px;
 left: 286px;
 top: 984px;
@@ -123,22 +126,71 @@ font-weight: normal;
 font-size: 110px;
 line-height: 100%;
 /* identical to box height, or 110px */
-
-
 color: #FFFFFF;
 
 border: 1px solid #FFFFFF;
 }
+
 .first-project {
     position: absolute;
-width: 960px;
-height: 558px;
-left: 480px;
-top: 1225px;
+    display: grid;
+    grid-template-columns: 1fr  3fr;
+    grid-template-rows: 2;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 auto;
+    width: 90%;
+    top: 1225px; 
+}
 
-background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(https://user-images.githubusercontent.com/52098394/113062802-fbd74380-91bc-11eb-8365-4623460af2fe.png);
+.first-image {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000000 0%,     
+rgba(0, 0, 0, 0) 48.44%, #000000 100%), url(https://user-images.githubusercontent.com/52098394/113170896-a730d880-924f-11eb-83b8-4c41855ee61d.png);
 border: 1px solid rgba(255, 255, 255, 0.1);
 }
+
+.see-button {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-self: end;
+    width: 200px;
+    height: 27px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    background: #DB4747;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.second-image {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    position: absolute;
+    width: 325px;
+    height: 279px;
+    background: url(https://user-images.githubusercontent.com/52098394/113170968-bc0d6c00-924f-11eb-861b-195a47ca04a9.png);
+}
+
+.third-image {
+    /* position: absolute; */
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 325px;
+    height: 279px;
+background: url(https://user-images.githubusercontent.com/52098394/113170896-a730d880-924f-11eb-83b8-4c41855ee61d.png);
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 
 .languages {
     position: absolute;
@@ -193,7 +245,7 @@ border-radius: 4px;
 width: 474px;
 height: 110px;
 left: 735px;
-top: 2548px;
+top: 2400px;
 
 font-family: Playfair Display;
 font-style: normal;
@@ -201,11 +253,8 @@ font-weight: normal;
 font-size: 110px;
 line-height: 100%;
 /* identical to box height, or 110px */
-
-
 color: #FFFFFF;
 
-border: 1px solid #FFFFFF;
 }
 
 .about-para {
