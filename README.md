@@ -8,17 +8,6 @@
   </a>
 
   <h3 align="center">Linter</h3>
-
-  <p align="center">
-    This is my personal portfolio built.
-    <br />
-    <a href="https://github.com/Jmagero/fresh-pages"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/Jmagero/fresh-pages/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/Jmagero/fresh-pages/issues">Request Feature</a>
-  </p>
 </p>
 
 
@@ -51,7 +40,7 @@
 
 ## Live Demo
 
-[Live Demo](https://freshpages.herokuapp.com/) Hosted on a Heroku free account, it may take a while to load.
+[Live Demo](https://elastic-lovelace-b6a2ab.netlify.app/) Hosted on a Heroku free account, it may take a while to load.
 
 
 ### Built With
