@@ -141,6 +141,15 @@ background-size: contain;
 margin-left: 10px;
 }
 
+.bg-image2 {
+    display: grid;
+    grid-column-start: 1;
+    background: url(https://user-images.githubusercontent.com/52098394/133906445-b5481844-a9af-417c-9606-ec8a5d70da7c.png) no-repeat;
+border-radius: 8px;
+background-size: contain;
+margin-left: 10px;
+}
+
 .project-name {
     font-family: Poppins;
 font-style: normal;
